@@ -1,0 +1,330 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Bruno Ace SC', cursive;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    max-width:100%;
+    height:auto
+    }
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 64px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 128px;
+    line-height: 1.5;
+    text-align: end;
+    color: #00ffa3;
+}
+
+.header{
+    background-color: #000 ;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px; ;
+}
+
+.header li{
+    font-size: 16px;
+    color: #d1d1d1;
+    line-height: 1.5;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.cover{
+    background-color: #000;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.cover .container{
+    display: flex;
+}
+
+.greet{
+    margin-left: 24px;
+}
+
+.contactmeButton{
+    display: block;
+    display: flex;
+    padding: 12px 24px 12px 24px;
+    background-color: #fff;
+    width: 133px;
+    border-radius:32px;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.contactmeButton p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.contactmeButton span{
+    font-size: 16px;
+    vertical-align: middle;
+    color: black;
+    margin-left: 4px;
+}
+
+.cover h2{
+    color: white;
+    margin-top: 232px;
+}
+
+.introPart{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.introduction{
+    width: 40%;
+}
+
+.introduction h2{
+    color: white;
+    margin-bottom: 36px;
+}
+
+.introduction p{
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.introPart .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutmePart{
+    background-color: #fff;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.feature{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box{
+    width: 274px;
+    border: 1px solid #e3e3e3;
+    padding: 16px;
+    margin-bottom: 24px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08)
+}
+
+.box h3{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.box p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.aboutMe{
+    width: 40%;
+}
+
+.aboutmePart .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 36px;
+}
+
+.callAction{
+    background-color: #000;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+
+.contactMe{
+    display: flex;
+}
+
+.callAction .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactMe h2{
+    color: white;
+}
+
+.contactMe p{
+    color: white;
+}
+.material-symbols-outlined{
+    font-size: 64px;
+    line-height: 1.5;
+    vertical-align: middle;
+    margin-left: 16px;
+    color: white;
+}
+
+.socialMedia img{
+    width: 162px;
+    margin-left: 20px;
+}
+
+.work{
+    background-color: #fff;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.title{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 16px;
+}
+
+
+
+.workPieces{
+    display: flex;
+}
+
+.details{
+    margin-left: 24px;
+}
+
+.instruction{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.essay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+
+.essay p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.seeMoreButton{
+    display: block;
+    padding: 12px 24px 12px 24px;
+    background-color: black;
+    border-radius: 32px; 
+    width: 133px;
+    text-decoration: none;
+    display: flex;
+}
+
+.seeMoreButton p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.seeMoreButton span{
+    font-size: 16px;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.moreWorks{
+    display: flex;
+}
+
+.moreWorks img{
+    margin-right: 24px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #000;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.footer p{
+    font-size: 16ox;
+    color: #fff;
+    text-align: center;
+}
